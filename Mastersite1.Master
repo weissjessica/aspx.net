@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mastersite1.master.cs" Inherits="Uebungspruefung.Mastersite1" %>
+<link href="StyleSheet1.css" rel="stylesheet" />
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="nav">
+                <nav>
+                    <a href="Default.aspx">Home</a>
+                    <a href="Seite1.aspx">Site 1</a>
+                    <a>Site 2</a>
+                    <a>Site 3</a>
+                </nav>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

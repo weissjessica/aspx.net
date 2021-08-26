@@ -1,0 +1,13 @@
+﻿body {
+    background-color: #e1ddd9;
+    color: #564b47;
+}
+
+nav{
+    background-color: #6799ff; 
+
+}
+
+a:hover{
+    color: green;
+}
